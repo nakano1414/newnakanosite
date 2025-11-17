@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  devIndicators: false, // 👈 これで左下のボタンを完全に消す
 };
-
 export default nextConfig;

@@ -1,0 +1,63 @@
+/* src/app/posts/impersonation/styles.scss */
+
+article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+  background: #ffffff;
+  color: #222;
+  line-height: 1.8;
+  font-size: 0.98rem;
+}
+
+/* 見出し */
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 24px 0 8px;
+  padding-left: 8px;
+  border-left: 3px solid #0070f3;
+}
+
+/* 段落 */
+p {
+  margin: 8px 0 12px;
+}
+
+/* リスト */
+ul {
+  margin: 4px 0 12px 1.4em;
+  padding: 0;
+}
+
+ul li {
+  margin: 4px 0;
+}
+
+/* リンク */
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* モバイル少し余白広めに */
+@media (min-width: 768px) {
+  article {
+    padding: 32px 0 56px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

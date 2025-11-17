@@ -1,0 +1,117 @@
+/* src/app/posts/shooting/styles.scss */
+
+.shooting-article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+  background: #ffffff;
+  color: #222;
+  line-height: 1.8;
+  font-size: 0.98rem;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.shooting-article h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.shooting-note {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* ゲーム部分 */
+
+.shooting-root {
+  margin: 16px 0 8px;
+}
+
+.shooting-ui {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.shooting-stage {
+  position: relative;
+  margin: 0 auto;
+  background: radial-gradient(circle at top, #222 0, #000 60%);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* プレイヤー */
+.player {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background: #4ade80;
+  border-radius: 4px 4px 0 0;
+}
+
+/* 弾 */
+.bullet {
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background: #fbbf24;
+  border-radius: 3px;
+}
+
+/* 敵 */
+.enemy {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #f87171;
+  border-radius: 6px;
+}
+
+/* GAME OVER オーバーレイ */
+.gameover-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameover-box {
+  background: #111827;
+  color: #f9fafb;
+  padding: 16px 24px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 200px;
+}
+
+.gameover-box h2 {
+  margin: 0 0 8px;
+}
+
+.gameover-box button {
+  margin-top: 8px;
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.gameover-box button:hover {
+  background: #1d4ed8;
+}
