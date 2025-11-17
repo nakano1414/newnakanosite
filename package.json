@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "15.5.2",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+        "sass": "^1.94.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.16",
@@ -22,7 +23,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
-    "sass": "^1.94.0",
+
     "tailwindcss": "^4",
     "typescript": "^5",
     "wrangler": "^4.47.0"
