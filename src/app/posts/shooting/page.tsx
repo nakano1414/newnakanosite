@@ -40,9 +40,9 @@ export default function ShootingGamePage() {
     canvas.width = CANVAS_WIDTH;
     canvas.height = CANVAS_HEIGHT;
 
-    let player: Player = { x: 160, y: 450, size: 20 };
+    const player: Player = { x: 160, y: 450, size: 20 };
     let bullets: Bullet[] = [];
-    let enemies: Enemy[] = [];
+    const enemies: Enemy[] = [];
     let score = 0;
     let lives = 3;
     let frame = 0;
