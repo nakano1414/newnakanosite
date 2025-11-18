@@ -5,14 +5,19 @@ type Post = { id: string; title: string; date: string };
 const posts: Post[] = [
   { id: 'impersonation', title: '私のなりすましについて', date: '2025-11-06' },
   {
-    id: 'julia',
-    title: 'ジュリア集合とは？',
-    date: '2025-11-05',
+    id: 'tech-stack-migration',
+    title: '技術スタックを更新しました',
+    date: '2025-11-19',
   },
   {
     id: 'shooting',
     title: 'なんか適当なシューティングゲーム',
     date: '2025-11-17',
+  },
+  {
+    id: 'julia',
+    title: 'ジュリア集合とは？',
+    date: '2025-11-05',
   },
 ];
 

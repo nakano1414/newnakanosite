@@ -1,0 +1,73 @@
+/* src/app/posts/tech-stack-migration/TechStackMigration.scss */
+
+.tech-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  line-height: 1.8;
+  font-size: 0.95rem;
+  color: #222;
+  background-color: #fafafa;
+  border-radius: 12px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.tech-post__header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1rem;
+}
+
+.tech-post__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.tech-post__meta {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 0;
+}
+
+.tech-post__section {
+  margin-top: 1.8rem;
+}
+
+.tech-post__heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid #0070f3;
+}
+
+.tech-post p {
+  margin: 0 0 0.9rem;
+}
+
+.tech-post ul {
+  margin: 0.4rem 0 1.1rem 1.4rem;
+  padding: 0;
+}
+
+.tech-post li {
+  margin-bottom: 0.3rem;
+}
+
+.tech-post strong {
+  font-weight: 600;
+}
+
+/* スマホ向けの微調整 */
+@media (max-width: 600px) {
+  .tech-post {
+    padding: 1.8rem 1.1rem 3rem;
+    font-size: 0.9rem;
+  }
+
+  .tech-post__title {
+    font-size: 1.4rem;
+  }
+}
