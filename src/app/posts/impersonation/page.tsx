@@ -20,10 +20,20 @@ export default function Impersonation() {
       <h2>正式な発信先</h2>
       <ul>
         <li>公式サイト：nakanotubasa.jp</li>
-        <li>X（旧Twitter）：@nakano11235</li>
-        <li>instagram makano4910</li>
-        <li>note nakano11235</li>
-        <li>Facebook nakano11235</li>
+        <li>
+          <a href=" https://x.com/nakano11235">X</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/makano4910/">instagram</a>
+        </li>
+        <li>
+          <a href="https://note.com/nakano11235">note nakano11235</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/p/%E4%B8%AD%E9%87%8E%E7%BF%BC-61579734693854/">
+            Facebook
+          </a>
+        </li>
         <li>
           <a href=" https://jp.linkedin.com/in/%E7%BF%BC-%E4%B8%AD%E9%87%8E-171575380?trk=people-guest_people_search-card">
             Linked in
