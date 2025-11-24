@@ -14,8 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: '中野翼公式サイト 柔術格闘技数学',
-  description:
-    '中野翼の公式サイト。ブラジリアン柔術と数学のコンテンツなどを掲載。',
+  description: '中野翼の公式サイト。',
 };
 
 export default function RootLayout({

@@ -28,6 +28,25 @@ export default function JuliaPost() {
       <JuliaCanvas />
 
       {/* 以下、残りの文章… */}
+      <a
+        href="https://px.a8.net/svt/ejp?a8mat=45IFX7+7VZSC2+0K+116QG1"
+        rel="nofollow"
+      >
+        <img
+          style={{ border: 0 }}
+          width={234}
+          height={60}
+          alt=""
+          src="https://www29.a8.net/svt/bgt?aid=251123227477&wid=001&eno=01&mid=s00000000002006246000&mc=1"
+        />
+      </a>
+      <img
+        style={{ border: 0 }}
+        width={1}
+        height={1}
+        src="https://www13.a8.net/0.gif?a8mat=45IFX7+7VZSC2+0K+116QG1"
+        alt=""
+      />
     </article>
   );
 }
