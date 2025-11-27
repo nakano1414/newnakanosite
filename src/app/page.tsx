@@ -7,8 +7,21 @@ function App() {
     <>
       <div className="site">
         <title>中野翼公式サイト 柔術格闘技数学</title>
-        <h1 className="text-center">中野翼公式サイト 柔術格闘技数学</h1>
-        <Image src="/images/icon.jpg" alt="ロゴ" width={1000} height={300} />
+
+        {/* タイトルにだけアニメーション用クラスを付ける */}
+        <h1 className="text-center hero-title">
+          中野翼公式サイト 柔術格闘技数学
+        </h1>
+
+        {/* 画像にもアニメーション用クラスを付ける */}
+        <Image
+          src="/images/icon.jpg"
+          alt="ロゴ"
+          width={1000}
+          height={300}
+          className="hero-image"
+        />
+
         <Header />
         <Home />
       </div>
