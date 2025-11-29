@@ -83,6 +83,26 @@ export default function TechStackMigrationPost() {
           今後とも当サイトをどうぞよろしくお願い申し上げます。
         </p>
       </section>
+      {/* 以下、残りの文章… */}
+      <a
+        href="https://px.a8.net/svt/ejp?a8mat=45IFX7+D44RHU+5QU4+5YZ75"
+        rel="nofollow"
+      >
+        <img
+          src="https://www20.a8.net/svt/bgt?aid=251123227793&wid=001&eno=01&mid=s00000026806001003000&mc=1"
+          alt=""
+          width={300}
+          height={250}
+          style={{ border: 0 }}
+        />
+      </a>
+      <img
+        src="https://www15.a8.net/0.gif?a8mat=45IFX7+D44RHU+5QU4+5YZ75"
+        alt=""
+        width={1}
+        height={1}
+        style={{ border: 0 }}
+      />
     </article>
   );
 }
