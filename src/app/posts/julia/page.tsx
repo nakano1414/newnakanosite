@@ -14,20 +14,38 @@ export default function JuliaPost() {
         次の漸化式によって生成されます。
       </p>
 
-      <pre className="formula">{`z_{n+1} = z_n^2 + c`}</pre>
+      {/* ……本文いろいろ…… */}
 
-      <p>
-        ここで <strong>c は複素数の定数</strong>、<strong>z₀ は初期値</strong>
-        です。 ある点 z₀ をスタートとして繰り返し計算したとき、
-        <strong>発散せずにとどまり続ける点の集合</strong>
-        がジュリア集合になります。
-      </p>
-
-      {/* ↓ ここに図を追加 */}
       <h2>ジュリア集合の例（c = -0.8 + 0.156i）</h2>
       <JuliaCanvas />
 
-      {/* 以下、残りの文章… */}
+      {/* ▼ ここを「普通の広告ブロック」っぽくする */}
+      {/* ▼ A8 バナー広告（300x250） */}
+      <section className="a8-banner-ad">
+        <p className="a8-banner-ad__label">PR</p>
+        <a
+          href="https://px.a8.net/svt/ejp?a8mat=45ILCV+ANF6CY+4KUG+5ZMCH"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
+          <img
+            src="https://www22.a8.net/svt/bgt?aid=251130271644&wid=001&eno=01&mid=s00000021364001006000&mc=1"
+            alt=""
+            width={300}
+            height={250}
+            style={{ border: 0 }}
+          />
+        </a>
+        <img
+          src="https://www11.a8.net/0.gif?a8mat=45ILCV+ANF6CY+4KUG+5ZMCH"
+          alt=""
+          width={1}
+          height={1}
+          style={{ border: 0 }}
+        />
+      </section>
+
+      {/* ここから下は元のバナー広告たち */}
       <a
         href="https://px.a8.net/svt/ejp?a8mat=45IFX7+7VZSC2+0K+116QG1"
         rel="nofollow"
@@ -47,7 +65,7 @@ export default function JuliaPost() {
         src="https://www13.a8.net/0.gif?a8mat=45IFX7+7VZSC2+0K+116QG1"
         alt=""
       />
-      {/* 以下、残りの文章… */}
+
       <a
         href="https://px.a8.net/svt/ejp?a8mat=45IFX7+D44RHU+5QU4+5YZ75"
         rel="nofollow"

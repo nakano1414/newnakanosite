@@ -84,6 +84,29 @@ export default function TechStackMigrationPost() {
         </p>
       </section>
       {/* 以下、残りの文章… */}
+      <section className="a8-banner-ad">
+        <p className="a8-banner-ad__label">PR</p>
+        <a
+          href="https://px.a8.net/svt/ejp?a8mat=45ILCV+ANF6CY+4KUG+5ZMCH"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
+          <img
+            src="https://www22.a8.net/svt/bgt?aid=251130271644&wid=001&eno=01&mid=s00000021364001006000&mc=1"
+            alt=""
+            width={300}
+            height={250}
+            style={{ border: 0 }}
+          />
+        </a>
+        <img
+          src="https://www11.a8.net/0.gif?a8mat=45ILCV+ANF6CY+4KUG+5ZMCH"
+          alt=""
+          width={1}
+          height={1}
+          style={{ border: 0 }}
+        />
+      </section>
       <a
         href="https://px.a8.net/svt/ejp?a8mat=45IFX7+D44RHU+5QU4+5YZ75"
         rel="nofollow"

@@ -207,6 +207,29 @@ export default function ShootingGamePage() {
           border: '1px solid #1f2937',
         }}
       />
+      <section className="a8-banner-ad">
+        <p className="a8-banner-ad__label">PR</p>
+        <a
+          href="https://px.a8.net/svt/ejp?a8mat=45ILCV+ANF6CY+4KUG+5ZMCH"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
+          <img
+            src="https://www22.a8.net/svt/bgt?aid=251130271644&wid=001&eno=01&mid=s00000021364001006000&mc=1"
+            alt=""
+            width={300}
+            height={250}
+            style={{ border: 0 }}
+          />
+        </a>
+        <img
+          src="https://www11.a8.net/0.gif?a8mat=45ILCV+ANF6CY+4KUG+5ZMCH"
+          alt=""
+          width={1}
+          height={1}
+          style={{ border: 0 }}
+        />
+      </section>
       <a
         href="https://px.a8.net/svt/ejp?a8mat=45IFX7+7VZSC2+0K+116QG1"
         rel="nofollow"
